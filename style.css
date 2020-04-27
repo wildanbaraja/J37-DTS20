@@ -1,0 +1,151 @@
+* {
+ box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #5f5d60;
+}
+
+.section {
+    height: 400px;
+    padding-bottom: 30px;
+}
+
+.about-us {
+    background-color: #b5c2e7f5;
+
+}
+
+.content {
+    display: flex;
+}
+.content p {
+    width: 70%;
+    text-align: justify;
+    padding: 0 30px;
+}
+.content img {
+    width: 30%;
+    height: auto;
+    padding: 0 30px 30px 30px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: rgba(38, 38, 41, 0.7);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+
+}
+.header-right {
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 100px;
+    margin-top: 10px;
+}
+
+.header-right a {
+    color: white;
+    padding: 0 25px;
+    display: block;
+    float: left;
+    line-height: 65px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.top-wrapper {
+    padding: 30px 0 150px 0;
+    background-image: url(/img/blur-book-close-up-document-390394.jpg);
+    background-size: cover;
+    text-align: left;
+    color: azure;
+}
+
+.top-wrapper h1 {
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+.top-wrapper h2 {
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.top-wrapper h3 {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.teams-info {
+    height:auto;
+    padding-bottom: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team {
+    width:30%;
+    padding-bottom: 30px;
+}
+
+.team img {
+    width: 150px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    justify-content: center;
+}
+
+footer img {
+    padding :0;
+    margin: 0;
+}
+
+footer p {
+    padding: 1px;
+}
